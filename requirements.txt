@@ -1,23 +1,23 @@
-Brotli @ file:///Users/runner/miniforge3/conda-bld/brotli-split_1666788492850/work
-click @ file:///home/conda/feedstock_root/build_artifacts/click_1666798198223/work
-dash @ file:///home/conda/feedstock_root/build_artifacts/dash_1667509624091/work
+Brotli
+click
+dash
 dash-bootstrap-components==1.5.0
 dash-core-components==2.0.0
 dash-html-components==2.0.0
 dash-table==5.0.0
-Flask @ file:///home/conda/feedstock_root/build_artifacts/flask_1660054669620/work
-Flask-Compress @ file:///home/conda/feedstock_root/build_artifacts/flask-compress_1663772969809/work
-importlib-metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1666781969417/work
-itsdangerous @ file:///home/conda/feedstock_root/build_artifacts/itsdangerous_1648147185463/work
-Jinja2 @ file:///home/conda/feedstock_root/build_artifacts/jinja2_1654302431367/work
-MarkupSafe @ file:///Users/runner/miniforge3/conda-bld/markupsafe_1666770248905/work
+Flask
+Flask-Compress
+importlib-metadata
+itsdangerous
+Jinja2
+MarkupSafe
 numpy==1.26.2
 pandas==2.1.3
-plotly @ file:///home/conda/feedstock_root/build_artifacts/plotly_1667059769663/work
+plotly
 python-dateutil==2.8.2
 pytz==2023.3.post1
 six==1.16.0
-tenacity @ file:///home/conda/feedstock_root/build_artifacts/tenacity_1663807083684/work
+tenacity
 tzdata==2023.3
-Werkzeug @ file:///home/conda/feedstock_root/build_artifacts/werkzeug_1660053523487/work
-zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1666647772197/work
+Werkzeug
+zipp
