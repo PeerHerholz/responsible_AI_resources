@@ -1,0 +1,20 @@
+name: Update Hugging Face space
+on:
+  push:
+    branches: [main]
+
+  workflow_dispatch:
+
+jobs:
+  push-to-hf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          lfs: true
+      - name: Push to Hugging Face
+        env:
+          HF_USER: ${{ secrets.HF_USER }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: git push https://$HF_USER:$HF_TOKEN@huggingface.co/spaces/peerherholz/responsible_AI_resources main --force
