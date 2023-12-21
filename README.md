@@ -2,7 +2,8 @@
 title: Responsible AI resources
 sdk: docker
 app_file: app.py
-pinned: false
+pinned: true
+license: mit
 ---
 
 # Responsible AI literature dash
